@@ -1,0 +1,14 @@
+game.Players.PlayerAdded:Connect(function(player)
+	local leaderstats = Instance.new("Folder")
+	leaderstats.Name = "leaderstats"
+	leaderstats.Parent = player
+	
+	
+	
+	local Lira = Instance.new("IntValue")
+	Lira.Name = "Lira"
+	Lira.Parent = leaderstats
+	
+end)
+
+--Add me to server scripts
