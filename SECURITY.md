@@ -1,6 +1,6 @@
 # Security Policy
 
-## Supported Versions
+## Warranties
 
 We do not guarentee this tech will work or not work, we do not give warranties.
 
