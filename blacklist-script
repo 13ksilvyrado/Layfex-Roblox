@@ -1,0 +1,18 @@
+local blacklists = {"insert name here", "insert name here", "insert name here"}
+
+function findblacklist(plr)
+	for _,v in pairs(blacklists) do
+		if plr.Name == v then return true
+		end
+	end
+end
+
+
+
+game.Players.PlayerAdded:Connect(function(plr)
+	local isblacklisted = findblacklist(plr)
+	
+	if isblacklisted then
+		plr:Kick("Your name has been blocked from joining.")
+	end
+end)
