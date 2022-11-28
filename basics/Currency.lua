@@ -1,4 +1,7 @@
-print("Layfex Economy has loaded!")
+print("Layfex Economy has loaded! your serial number will be stated;")
+local SerialNumber = math.random(1, 1000)
+wait(5)
+print(SerialNumber)
 local DataStoreService = game:GetService("DataStoreService")
 local DollarStore = DataStoreService:GetDataStore("DollarStore")
 
@@ -9,7 +12,7 @@ game.Players.PlayerAdded:Connect(function(player)
 	leaderstats.Parent = player
 
 	local Dollars = Instance.new("IntValue")
-	Dollars.Name = "Dollars" -- You can change me to anything but be sure to change the indicated.
+	Dollars.Name = "Dollars"
 	Dollars.Parent = leaderstats
 
 
@@ -23,7 +26,7 @@ game.Players.PlayerAdded:Connect(function(player)
 	end)
 
 	if success then
-		Dollars.Value = data -- replace dollars with whatever you want
+		Dollars.Value = data
 	end
 end)
 
@@ -31,7 +34,7 @@ end)
 
 game.Players.PlayerRemoving:Connect(function(player)
 	local UserId = player.UserId
-	local data = player.leaderstats.Dollars.Value -- replace dollars with whatever you want
+	local data = player.leaderstats.Dollars.Value
 
 	DollarStore:SetAsync(UserId, data)
 end)
