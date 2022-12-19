@@ -14,7 +14,7 @@ data = {
 
 local finals = http:JSONEncode(data)
 http:PostAsync(url, finals)
-
-end)
 print(data)
+end)
+
 -- Author; AzovWarrior711
