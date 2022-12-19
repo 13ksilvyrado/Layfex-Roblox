@@ -1,5 +1,5 @@
 local url = "your discord webhook url here" 
-local http = game:GetServices("HttpService")
+local http = game:GetService("HttpService")
 local whatgame = game.placeId
 
 game.Players.PlayerAdded:Connect(function(data)
