@@ -16,4 +16,4 @@ Layfex offers:
 
 Thank you for using Layfex "Our customers are our #1 priority~!"
 
-~arson
+~Arsonware founder & ceo
