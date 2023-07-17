@@ -1,9 +1,9 @@
-# Layfex-Roblox
+# Layfex-Roblox #
 This is the Layfex tech repository.
 
 We are Layfex, we create roblox tech for game developers, we hope you're satisfied with our products. 
 
-We are working on an admin commands for Layfex and the rest of people out there, Layfex was created by arson.js when he was just a developer for Wethersfield
+We are working on an admin commands for Layfex and the rest of people out there, Layfex was created by arson.js when she was just a developer for Wethersfield
 on roblox.
 
 Layfex offers:
