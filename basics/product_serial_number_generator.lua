@@ -6,7 +6,7 @@ game.Players.PlayerAdded:Connect(function(data)
 
 data = {
  ['embeds'] = {{
- ['title'] = math.random(5, 1000), -- ONLY MAX IS 1 THOUSAND DO NOT GO PAST THAT.
+ ['title'] = math.random(5, 1000), -- 5 to 1k, self explainatory.
  ['description'] = "your serial number will be displayed above!",
  ['url'] = "https://www.roblox.com/games/" ..whatgame,
  }}
