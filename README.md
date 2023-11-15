@@ -14,6 +14,8 @@ Layfex offers:
 -Overhead GUI
 -Age restriction and a whole lot more!
 
+We believe to make open sourced products for Roblox games for better transparency, because truth is power. 
+
 Thank you for using Layfex "Our customers are our #1 priority~!"
 
 ~Arsonware founder & ceo
